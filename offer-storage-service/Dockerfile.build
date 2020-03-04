@@ -1,0 +1,7 @@
+FROM maven:latest
+
+COPY . /tmp
+WORKDIR /tmp
+
+RUN mvn install
+

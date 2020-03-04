@@ -1,0 +1,9 @@
+out/
+build/
+target/
+.gradle
+*.iml
+.idea
+volumes
+TODO.txt
+kotlin/

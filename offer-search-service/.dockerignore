@@ -1,0 +1,8 @@
+.
+..
+.dockerignore
+.idea
+Dockerfile
+Dockerfile-build
+gradlew.bat
+*.iml

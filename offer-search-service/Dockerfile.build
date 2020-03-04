@@ -1,0 +1,7 @@
+FROM gradle:latest
+
+COPY . /tmp
+WORKDIR /tmp
+
+RUN gradle build --info --stacktrace
+

@@ -1,0 +1,13 @@
+kafka:
+  consumer:
+    bootstrap: kafka:9092
+    topic: offerChange
+    group: offer-cache-group
+spring:
+  data:
+    mongodb:
+      host: offer-cache-db
+      port: 27017
+      username: admin
+      password: admin
+      database: offers
